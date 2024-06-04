@@ -1,0 +1,53 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body background="2.jpg">
+  <div class="container">
+    
+    <center>
+<h1 class="btn btn-warning img_rec ">School ProjectImage Recognition</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">This SDG Model is trained to identify the following objects: </p>
+<b class="NameOfObjects">
+Biodegradable<hr>
+Non-Biodegradable<hr>
+
+</b>
+      <label>Webcam View - </label>
+<div id="Camera"></div>
+      <br><br>
+<div id="result"></div>
+      <br><br>
+<button id="Capture" class ="btn btn-danger" onclick="take_snapshot()">Capture your Image</button>
+      <br><br>
+      <button id="Identify" class ="btn btn-success" onclick="Identify()">Identify your Image</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object :<span id="object_name"></span>  </p>
+      <p style="font-size: 22px;">Accuracy :<span id="object_accuracy"></span>  </p>
+    </center>
+
+</bottom>-BY ATHARV KUMAR 
+         -CLASS IX-D
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
